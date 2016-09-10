@@ -1,0 +1,83 @@
+body{
+	background-image:url("wood.gif");
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	
+}
+
+.header{
+	background-color:#a9cce3;
+	width:100%;
+	height:15%;
+	position:fixed;
+	margin-left:-8px;
+	top:0;
+	border-bottom:2px solid grey;
+}
+img{
+	float:left
+	}
+li{
+	display:inline-block;
+	float:left;
+	width:125px;
+}
+ul{
+	float:left;
+	padding-top:30px;
+	text-align:center;
+}
+a{
+	font-weight:bold;
+	text-decoration:none;
+	color:grey;
+	text-transform:capitalize;
+}
+a:hover{
+	color:white;
+}
+a:visited{
+	color:green;
+}
+h2{
+	color:orange;
+}
+div#topmargin{
+	margin-top:130px;
+}
+div#topmargin1{
+	margin-top:80px;
+}
+
+div#topmargin2{
+	margin-top:80px;
+}
+div#topmargin3{
+	margin-top:80px;
+	line-height:1.4em;
+}
+p{
+	color:grey;
+}
+
+footer{
+	float:left;
+	clear:left;
+	background:#a9cce3;
+	width:100%;
+	height:10%;
+    padding:100px;
+	margin-left:-100px;
+	margin-right:0px;
+	margin-bottom:50px;
+	padding-top:10px;
+	padding-bottom:20px;
+	border:2px solid grey;
+}
+img.right{
+	float:right;
+	padding-top:-40px;
+	margin-top:-5px;
+	margin-right:10px;
+	
+}
